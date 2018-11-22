@@ -1,0 +1,38 @@
+#mainContainer{
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+  padding-top: 10%;
+}
+
+input[type=search]{
+  height: 1.5em;
+  width: 100%;
+  border: 0;
+  margin: 0;
+  padding: 4%;
+  background: transparent;
+  box-shadow: 3px 1px 2px 0px rgba(0,0,0,0.75), -3px -1px 2px 0px rgba(0,0,0,0.75);
+}
+
+ul{
+  display: block;
+  border-collapse: collapse;
+  margin:0;
+  box-shadow: 3px -1px 2px 0px rgba(0,0,0,0.75), -3px 1px 2px 0px rgba(0,0,0,0.75);
+  padding: 0;
+}
+
+li{
+  list-style-type: none;
+  text-align: left;
+  padding: 2% 4%;
+  cursor: pointer;
+}
+
+li:hover{
+  background-color: whitesmoke;
+}
